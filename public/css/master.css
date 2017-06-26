@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+  background: #212121;
+  color: #FFF;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.m-header {
+  height: 300px;
+  background: url('../assets/809691.jpg') center / cover;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.m-header .m-header-title img {
+  border-radius: 50%;
+  height: 128px;
+  width: 128px;
+  margin-bottom: -20px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23), 0 0 20px #212121;
+}
+
+.m-header .mdl-layout__header .mdl-layout__header-row .mdl-navigation__link {
+  margin-top: 10px;
+  background: rgba(33, 33, 33, .8);
+}
+
+.m-header .mdl-layout__header .mdl-layout__header-row .mdl-navigation__link:first-child {
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.m-header .mdl-layout__header .mdl-layout__header-row .mdl-navigation__link:last-child {
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.m-header .m-header-title {
+  text-align: center;
+}
+
+.m-header .m-header-title h1 {
+  color: #F1AC06;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23), 0 0 20px #212121, 0 0 10px #212121;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  margin-top: 325px;
+}
+
+.m-content-container {
+  margin: 0 auto;
+  background: linear-gradient(to bottom left, #313439, #3B3B38);
+  width: 75%;
+  padding: 20px 20px 50px 20px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  border-radius: 20px;
+}
+
+main h1 {
+  font-family: 'Pacifico', cursive;
+  color: #FFF;
+  border-bottom: 2px dashed #FFF;
+  border-top: 2px dashed #FFF;
+  margin-bottom: 50px;
+  text-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23), 0 0 20px #212121, 0 0 10px #212121;
+}
+
+main table {
+  margin: 0 auto;
+  color: #212121;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+/*.m-header .mdl-layout__header,
+.m-header .mdl-layout__drawer-button {
+  color: white;
+}*/
